@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title> Каталог. Барбершоп "Бородинский"</title>
+  </head>
+  <body>
+      <header class="page-header">
+          <div class="center-container">
+            <a href="#" class="logo-to-main">
+                <img src="http://placehold.it/150x50" alt="Барбершоп. Главная страница" width="150" height="50">
+              </a>
+            <nav class="site-navigation">
+                <ul>
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Прайс-лист</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>                
+            </nav>
+            <div class="user-block">
+                <a href="#" class="login">Вход</a>
+            </div>
+          </div>
+      </header>
+       <main class="center-container">
+          <div class="login-form"> <!--форма входа, в макете отсутствует, но я посчитал, что добавить ее нужно, т.к. кнопка есть-->
+              <h2>Личный кабинет</h2>        
+              <p>Введите пожалуйста свой логин и пароль</p>
+              <form method="post" action="https://echo.htmlacademy.ru">
+                  <input type="text" name="login" placeholder="Логин">
+                  <input type="password" name="password" placeholder="Пароль">
+                  <input type="checkbox" name="remember" id="remember" checked value="Запомните меня">
+                  <label for="remember">Запомните меня</label>
+                  <a href="#">Я забыл пароль</a>
+                  <input type="submit" value="Войти">
+              </form>
+          </div>
+          <span class="login-form-close"></span> <!-- Кнопка закрытия формы входа-->
+          <h1>Средства для ухода</h1>
+          <div class="breadcrumbs">
+              <ul class="breadcrumbs-list">
+                  <li class="breadcrumbs-item"><a href="#">Главная</a></li>
+                  <li class="breadcrumbs-item"><a href="#">Магазин</a></li>
+                  <li class="breadcrumbs-item">Средства для ухода</li>
+              </ul>
+           </div>
+          <form method="post" action="https://echo.htmlacademy.ru"> <!--Фильтр-->
+               <fieldset>
+                   <legend>Производители:</legend>
+                   <label><input type="checkbox" name="baxter-of-california" checked>Baxter of California</label>
+                   <label><input type="checkbox" name="mr-natty">Mr Natty</label>
+                   <label><input type="checkbox" name="suavecito" checked>Suavecito</label>
+                   <label><input type="checkbox" name="malin+goetz">Malin+Goetz</label>
+                   <label><input type="checkbox" name="merray`s">Murray`s</label>
+                   <label><input type="checkbox" name="american crew" checked>American crew</label>
+               </fieldset>
+               <fieldset>
+                   <legend>Группы товаров:</legend>
+                   <label><input type="radio" name="product-group" value="shaving-materials">Бритвенные принадлежности</label>
+                   <label><input type="radio" name="product-group" value="care" checked>Средства для ухода</label>
+                   <label><input type="radio" name="product-group" value="accessories">Аксессуары</label>
+               </fieldset>
+               <button type="submit">Показать</button>
+           </form>
+          <div class="product-container">
+              <article class="product-item">
+                  <div class="product-image-container">
+                      <img src="http://placehold.it/215x160" alt="Набор для путешествия Baxter of California" width="215" height="160">             
+                  </div>
+                  <a href="#" class="product-name">
+                      <h4>Набор для путешествия "Baxter of California"</h4>
+                  </a>
+                  <div class="product-price">
+                      <p>2 900 руб.</p>
+                  </div>
+                  <a href="#" class="btn">Купить</a>
+              </article>     
+              <article class="product-item">
+                  <div class="product-image-container">
+                      <img src="http://placehold.it/215x160" alt="Увлажняющий кондиционер Baxter of California" width="215" height="160">                    
+                  </div>
+                  <a href="#" class="product-name">
+                      <h4>Увлажняющий кондиционер "Baxter of California"</h4>
+                  </a>
+                  <div class="product-price">
+                      <p>750 руб.</p>
+                  </div>
+                  <a href="#" class="btn">Купить</a>
+              </article>     
+              <article class="product-item">
+                  <div class="product-image-container">
+                      <img src="http://placehold.it/215x160" alt="Гель для волос Suavecito" width="215" height="160">                     
+                  </div>
+                  <a href="#" class="product-name">
+                      <h4>Гель для волос "Suavecito"</h4>
+                  </a>
+                  <div class="product-price">
+                      <p>290 руб.</p>
+                  </div>
+                  <a href="#" class="btn">Купить</a>
+              </article>     
+              <article class="product-item">
+                  <div class="product-image-container">
+                      <img src="http://placehold.it/215x160" alt="Гель для укладки волос American Crew" width="215" height="160">                       
+                  </div>
+                  <a href="#" class="product-name">
+                      <h4>Гель для укладки волос "American Crew"</h4>
+                  </a>
+                  <div class="product-price">
+                      <p>500 руб.</p>
+                  </div>
+                  <a href="#" class="btn">Купить</a>
+              </article>     
+              <article class="product-item">
+                  <div class="product-image-container">
+                      <img src="http://placehold.it/215x160" alt="Гель для волос American Crew" width="215" height="160">                     
+                  </div>
+                  <a href="#" class="product-name">
+                      <h4>Гель для волос "American Crew"</h4>
+                  </a>
+                  <div class="product-price">
+                      <p>300 руб.</p>
+                  </div>
+                  <a href="#" class="btn">Купить</a>
+              </article>     
+              <article class="product-item">
+                  <div class="product-image-container">
+                      <img src="http://placehold.it/215x160" alt="Набор для бритья Baxter of California" width="215" height="160">                     
+                  </div>
+                  <a href="#" class="product-name">
+                      <h4>Набор для бритья "Baxter of California"</h4>
+                  </a>
+                  <div class="product-price">
+                      <p>3 900 руб.</p>
+                  </div>
+                  <a href="#" class="btn">Купить</a>
+              </article>     
+          </div>
+          <div class="pages-container">
+              <ul class="pages-list">
+                  <li><a href="#" class="btn">1</a></li>
+                  <li><a href="#" class="btn active">2</a></li>
+                  <li><a href="#" class="btn">3</a></li>
+                  <li><a href="#" class="btn">4</a></li>
+              </ul>
+          </div>
+       </main>
+       <footer class="page-footer">
+          <div class="center-container">
+              <div class="footer-contacts">
+                  <p>Барбершоп "Бородинский"<br>
+                      Адрес: г. Санкт-Петергбург, б. Конюшенная, д.19/8<br>
+                      <a href="#">Как нас найти?</a><br>
+                      Телефон: +7 (495)666-02-66                    
+                  </p>
+              </div>
+              <div class="footer-social">
+                  <p>Давайте дружить!</p>
+                  <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+                  <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                  <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+              </div>
+              <div class="footer-copyright">
+                  <p>Разработано:</p>
+                  <a href="https://htmlacademy.ru" class="btn">HTML Academy</a>
+              </div>
+          </div>
+      </footer>
