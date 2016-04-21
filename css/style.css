@@ -1,0 +1,42 @@
+/*
+main {
+    background: url(../img/background%20image.jpg) no-repeat;
+    background-color: #070707;
+}
+.page-header {
+    background-color: #000;
+}
+.center-container {
+    text-align: center;
+}
+.page-footer {
+    background: url(../img/footer.jpg);   
+}
+.content-container {
+    background: url(../img/light%20texture.png);
+}
+*/
+@font-face {
+    font-family: 'PT Sans Narrow Bold';
+    src: url('../fonts/ptsansnarrowbold.woff');
+}
+
+body {
+    font-family: 'PT Sans Narrow Bold';
+    font-size: 14px;
+    line-height: 24px;
+    color:#000;
+    font-weight: bold;
+    text-transform: uppercase
+}
+h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+.advantages h2 {
+    color: #f7f4f1;
+}
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
