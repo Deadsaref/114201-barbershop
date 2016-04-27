@@ -7,13 +7,13 @@
   </head>
   <body>
       <header class="page-header">
-          <div class="center-container">
-            <nav class="site-navigation">
-                <ul>
+          <div class="center-container clearfix">
+            <nav class="site-navigation ">
+                <ul class="clearfix">
                     <li><a href="#">Информация</a></li>
                     <li><a href="#">Новости</a></li>
                     <li><a href="#">Прайс-лист</a></li>
-                    <li><a href="#">Магазин</a></li>
+                    <li><a href="catalog.html">Магазин</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>                
             </nav>
@@ -22,8 +22,9 @@
             </div>
           </div>
       </header>
-      <main class="center-container">
-          <div class="login-form"> <!--форма входа-->
+      <main> 
+          <div class="center-container">
+          <div class="login-form" id="login-form"> <!--форма входа-->              
               <h2>Личный кабинет</h2>        
               <p>Введите пожалуйста свой логин и пароль</p>
               <form method="post" action="https://echo.htmlacademy.ru">
@@ -31,13 +32,13 @@
                   <input type="password" name="password" placeholder="Пароль">
                   <input type="checkbox" name="remember" id="remember" checked value="Запомните меня">
                   <label for="remember">Запомните меня</label>
-                  <a href="#">Я забыл пароль</a>
+                  <a href="#">Я забыл пароль!</a>
                   <input type="submit" value="Войти">
                   <span class="login-form-close"></span> <!-- Кнопка закрытия формы входа-->
               </form>
           </div>
           <div class="main-logo">
-              <img src="img/borodinski-logo.png" alt="Барбершоп Бородинский" width="380" height="160">
+              <img src="img/borodinski-logo.png" alt="Барбершоп Бородинский" width="368" height="204">
           </div>
           <div class="advantages">
               <div class="advantages-item">
@@ -46,14 +47,15 @@
               </div>
               <div class="advantages-item">
                   <h2>Круто</h2>
-                  <h2p class="advantages-description">Забудьте, как вы стрились раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+                  <p class="advantages-description">Забудьте, как вы стрились раньше.<br>
+                      Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
               </div>
               <div class="advantages-item">
                   <h2>Дорого</h2>
                   <p class="advantages-description">Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определеный статус?</p>
               </div>
           </div>
-          <div class="content-container">
+          <div class="content-container clearfix">
               <div class="content-left">
                   <h2 class="content-title">Новости</h2>
                   <ul class="news">
@@ -79,16 +81,21 @@
                   <button class="btn gallery-next">Вперед</button>
               </div>
           </div>
-          <div class="content-container">
+          <div class="content-container clearfix">
               <div class="content-left">
                   <h2>Контактная информация</h2>
                   <p>Барбершоп "Бородинский"<br>
                       Адрес: г. Санкт-Петергбург, б. Конюшенная, д.19/8<br>
                       Телефон: +7 (495)666-02-66
                   </p>
+                  <p>Время работы<br>
+                  Пн-Пт: С 10:00 до 22:00<br>
+                  Сб-Вс: С 10:00 до 19:00</p>
                   <a class="btn" href="#">Как проехать</a>
                   <a class="btn" href="#">Обратная связь</a>
-                  <div class="map-container"></div> <img src="img/map.jpg" alt="Карта">
+                  <div class="map-container">
+                      <img src="img/map.jpg" alt="Карта" width="766" height="560">
+                  </div>
               </div>
               <div class="content-right">
                   <h2>Записаться</h2>
@@ -102,9 +109,10 @@
                   </form>                  
               </div>
           </div>
+          </div>
       </main>
       <footer class="page-footer">
-          <div class="center-container">
+          <div class="center-container clearfix">
               <div class="footer-contacts">
                   <p>Барбершоп "Бородинский"<br>
                       Адрес: г. Санкт-Петергбург, б. Конюшенная, д.19/8<br>
@@ -114,9 +122,9 @@
               </div>
               <div class="footer-social">
                   <p>Давайте дружить!</p>
-                  <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-                  <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                  <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+                  <a class="social-btn social-btn-vk" href="#"></a>
+                  <a class="social-btn social-btn-fb" href="#"></a>
+                  <a class="social-btn social-btn-inst" href="#"></a>
               </div>
               <div class="footer-copyright">
                   <p>Разработано:</p>
